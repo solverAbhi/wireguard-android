@@ -1,13 +1,30 @@
-<!--
-  ~ Copyright © 2017-2023 WireGuard LLC. All Rights Reserved.
-  ~ SPDX-License-Identifier: Apache-2.0
-  -->
-
 <restrictions xmlns:android="http://schemas.android.com/apk/res/android">
     <restriction
-        android:defaultValue="false"
-        android:description="@string/disable_config_export_description"
-        android:key="disable_config_export"
-        android:restrictionType="bool"
-        android:title="@string/disable_config_export_title" />
+        android:key="interface_private_key"
+        android:title="Private Key"
+        android:restrictionType="string" />
+    <restriction
+        android:key="interface_address"
+        android:title="Address"
+        android:restrictionType="string" />
+    <restriction
+        android:key="interface_dns"
+        android:title="DNS"
+        android:restrictionType="string" />
+    <restriction
+        android:key="peer_public_key"
+        android:title="Public Key"
+        android:restrictionType="string" />
+    <restriction
+        android:key="peer_preshared_key"
+        android:title="Preshared Key"
+        android:restrictionType="string" />
+    <restriction
+        android:key="peer_allowed_ips"
+        android:title="Allowed IPs"
+        android:restrictionType="string" />
+    <restriction
+        android:key="peer_endpoint"
+        android:title="Endpoint"
+        android:restrictionType="string" />
 </restrictions>

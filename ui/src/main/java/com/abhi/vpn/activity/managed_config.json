@@ -1,0 +1,9 @@
+{
+  "interface_private_key": "aFN9mKlaVWxqv7brB/w3/vTCPXjR8CRM6UjnZx0NDW0=",
+  "interface_address": "10.49.0.2,2001:db8:a160::2",
+  "interface_dns": "172.26.181.127,fd00::a:b57f",
+  "peer_public_key": "MfuWuPgAOehuSXL7Eev8jOZQTXpvJUoJ/AkyRsdCJhI=",
+  "peer_preshared_key": "P/LVj68sjYclsjehkBFFk57yH6531aQvREmZMCSArdU=",
+  "peer_allowed_ips": "0.0.0.0/0,::/0",
+  "peer_endpoint": "35.182.200.134:51820"
+}
